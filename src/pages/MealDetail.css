@@ -1,0 +1,39 @@
+.meal-detail-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.meal-detail-skeleton-image {
+  margin-bottom: 1rem;
+}
+
+.meal-detail-breadcrumbs {
+  margin-bottom: 1.5rem;
+}
+
+.meal-detail-chips {
+  margin-bottom: 1.5rem;
+}
+
+.meal-detail-instructions {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.meal-detail-instructions li {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.meal-detail-ingredients-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.meal-detail-error-alert {
+  margin-bottom: 1rem;
+}

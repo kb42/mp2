@@ -1,0 +1,49 @@
+.surprise-me-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.surprise-me-skeleton-image {
+  margin-bottom: 1rem;
+}
+
+.surprise-me-header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.surprise-me-title {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #FF6B6B 30%, #FFD93D 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.surprise-me-chips {
+  margin-bottom: 1.5rem;
+}
+
+.surprise-me-instructions {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.surprise-me-instructions li {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.surprise-me-ingredients-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.surprise-me-error-alert {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,105 @@
+.gallery-loading-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.gallery-error-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.gallery-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.gallery-header {
+  margin-bottom: 2rem;
+}
+
+.gallery-title {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #2196F3 30%, #21CBF3 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gallery-no-results {
+  margin-bottom: 1.5rem;
+}
+
+.gallery-image-list {
+  column-count: 1;
+}
+
+@media (min-width: 600px) {
+  .gallery-image-list {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 900px) {
+  .gallery-image-list {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gallery-image-list {
+    column-count: 4;
+  }
+}
+
+.gallery-image-item {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.gallery-image-item:hover {
+  transform: translateY(-4px);
+}
+
+.gallery-image-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.gallery-overlay-title {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.gallery-overlay-id {
+  opacity: 0.9;
+}
